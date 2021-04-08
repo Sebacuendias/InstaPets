@@ -1,0 +1,95 @@
+.titular {
+  background-color: #00ffaf;
+  font-family: "Lexend", sans-serif;
+  padding: 10px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 3%;
+  border-radius: 60px;
+}
+
+.parrafo {
+  padding-top: 1em;
+  font-style: italic;
+  font-size: 123%;
+  color: black;
+  text-decoration: underline;
+  background-color: #cfba36;
+  border-radius: 60px;
+  padding-block: 5px;
+  margin-top: 2%;
+}
+
+#formulario {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-size: 150%;
+  font-style: italic;
+}
+
+.parrafos {
+  background-color: #cfba36;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  border-radius: 60px;
+  font-size: 184%;
+}
+
+.inputs {
+  margin-top: 50px;
+  border-radius: 50px;
+  width: 15%;
+}
+
+.textarea {
+  margin-top: 50px;
+}
+
+.terminos {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.boton {
+  cursor: pointer;
+  padding: 7px;
+  text-transform: uppercase;
+  color: #00ffaf;
+  background-color: black;
+  font: bold;
+  margin-top: 30px;
+}
+
+.label {
+  background-color: #00ffaf;
+  padding: 5px;
+  border-radius: 60px;
+  font-weight: 1000;
+  margin-top: 50px;
+}
+
+.footer {
+  margin-left: 77%;
+  text-transform: uppercase;
+  background: #7c7872;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  background-image: url(http://colorearimagenes.net/wp-content/uploads/2015/09/animalescolo.jpg7_.jpg);
+  background-color: black;
+}
+
+.blooper {
+  border: 5px double #cfba36;
+  float: right;
+  position: static;
+}
+
+.educacion {
+  border: 5px double #cfba36;
+  float: left;
+  position: static;
+}

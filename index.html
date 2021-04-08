@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Registro de mascotas</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="titular">
+      <h1>&nbsp;&nbsp; <strong> Registro de mascotas con hogar </strong></h1>
+    </div>
+
+    <p class="parrafo">
+      <strong>
+        Esta web se encarga del registro de las mascotas que ya tienen un hogar,
+        con el objetivo de que tengan una identificación que facilite sus datos
+        a la hora de publicar su busqueda por un posible extravío.
+      </strong>
+    </p>
+
+    <form id="formulario">
+      <label class="label">
+        Nombre
+        <input
+          type="text"
+          placeholder="Nombre de la mascota"
+          class="inputs"
+          required
+        /> </label
+      ><br />
+      <label class="label"
+        >Masculino
+        <input
+          class="label"
+          type="radio"
+          name="genero"
+          value="Masculino"
+          required
+      /></label>
+      <label class="label"
+        >Femenino
+        <input
+          class="label"
+          type="radio"
+          name="genero"
+          value="Femenino"
+          required /></label
+      ><br />
+      <label class="label">
+        Color
+        <input
+          type="color"
+          placeholder="Color de la mascota"
+          class="inputs"
+          required
+        /> </label
+      ><br />
+      <label class="label">
+        Raza
+        <select name="Tipo de animal" class="inputs" required>
+          <option value="">Perro</option>
+          <option value="">Gato</option>
+          <option value="">Otro</option>
+        </select> </label
+      ><br />
+      <span class="educacion"
+        ><iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ZMQHizE6yZg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe
+      ></span>
+      <iframe
+        class="blooper"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-PudgyZaLyA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <label class="label"
+        >Edad <input type="date" class="inputs" required /> </label
+      ><br />
+      <label class="label">
+        Teléfono
+        <input
+          type="tel"
+          class="inputs"
+          placeholder="Ingrese aquí el número"
+          required
+        /> </label
+      ><br />
+      <label class="label"
+        >Correo
+        <input
+          type="email"
+          placeholder="Ingrese aquí su correo electrónico"
+          class="inputs"
+          required
+        /> </label
+      ><br />
+      <label class="label"
+        >Contraseña
+        <input
+          type="password"
+          placeholder="Ingrese su contraseña"
+          class="inputs"
+          required
+        /> </label
+      ><br />
+      <label class="label"
+        >Repita la contraseña
+        <input
+          type="password"
+          placeholder="Repita su contraseña"
+          class="inputs"
+          required
+        /> </label
+      ><br />
+      <textarea
+        name="Datos adicionales"
+        cols="30"
+        rows="10"
+        class="textarea"
+        placeholder="Agregue aquí datos adicionales que usted desee sobre su mascota."
+      ></textarea>
+      <br />
+      <label class="label"
+        ><a href="http://google.com"> Acepta términos y condiciones</a>
+        <input type="checkbox" class="terminos" required /> </label
+      ><br />
+      <input type="submit" value="Registrar datos" class="boton" />
+    </form>
+    <br />
+
+    <p class="parrafos">
+      Para ir a nuestra página donde publicamos los animales perdidos haz click
+      <a href="http://www.google.com"> aquí </a>
+    </p>
+
+    <footer>
+      <p class="footer">Derechos reservados &copy;Sebastian Cuendias 2021</p>
+    </footer>
+  </body>
+</html>
